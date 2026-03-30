@@ -1,0 +1,44 @@
+# Compiled files
+*.o
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+
+# Debug files
+Debug/
+*.su
+*.d
+*.cyclo
+
+# IDE files
+*.launch
+*.ioc
+*.mxproject
+*.cproject
+*.project
+.settings/
+
+# Build files
+makefile
+objects.mk
+sources.mk
+subdir.mk
+
+# Large binary files (consider using Git LFS)
+*.pptx
+*.mp4
+*.pdf
+*.docx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
