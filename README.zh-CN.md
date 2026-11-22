@@ -18,6 +18,6 @@ flowchart LR
     M --> T["ST7735 彩屏"]
 ~~~
 
-在 STM32CubeIDE 选择 **File → Import → Existing Projects into Workspace**，导入 [firmware](firmware/)，构建 **lab5_4 → Debug**。[测量与接线说明](docs/measurement.zh-CN.md)给出 ADC 换算、引脚及与万用表对照的步骤。
+在 STM32CubeIDE 选择 **File → Import → Existing Projects into Workspace**，导入 [firmware](firmware/)，构建 **lab5_4 → Debug**。[测量与接线说明](docs/measurement.zh-CN.md)给出 ADC 换算及引脚。[台架记录与标定方案](docs/validation.zh-CN.md)列明历史读数、采样节奏和与万用表对照的步骤。
 
 当前固件估算固定负载下的电流。若要画出光伏板 I–V 曲线或定位最大功率点，需要在多种负载下测量。

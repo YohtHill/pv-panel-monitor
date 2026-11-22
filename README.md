@@ -18,6 +18,6 @@ flowchart LR
     M --> T["ST7735 display"]
 ~~~
 
-Open **File → Import → Existing Projects into Workspace** in STM32CubeIDE and select [firmware](firmware/). Build **lab5_4 → Debug**. The [measurement and wiring note](docs/measurement.md) explains the ADC conversion, pin map and bench comparison against a multimeter.
+Open **File → Import → Existing Projects into Workspace** in STM32CubeIDE and select [firmware](firmware/). Build **lab5_4 → Debug**. See [measurement and wiring](docs/measurement.md) for the ADC conversion and pin map, and [bench evidence and calibration](docs/validation.md) for the archived result, sampling cadence and multimeter comparison plan.
 
 The firmware estimates current at this fixed test load. The panel I–V curve and maximum power point require measurements at multiple loads.
